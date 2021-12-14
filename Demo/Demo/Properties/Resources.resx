@@ -1,0 +1,823 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="delivery_48px" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\delivery_48px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="search_128px1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\search_128px1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="textbox_user_14" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\textbox_user_14.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="test_account_100px11" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\test_account_100px11.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="trash_can_100px" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\trash_can_100px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="doge_48px" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\doge_48px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="images" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\images.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="420f9b50a43926654eff153d65e179bf" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\420f9b50a43926654eff153d65e179bf.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="save_64px" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\save_64px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="lion_100px1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\lion_100px1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="giphy-2 - unscreen-80" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\giphy-2 - unscreen-80.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="statistics_128px" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\statistics_128px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="purple-pink-fluid-splash-screen--by-iweb-makers2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\purple-pink-fluid-splash-screen--by-iweb-makers2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="purple-pink-fluid-splash-screen--by-iweb-makers11" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\purple-pink-fluid-splash-screen--by-iweb-makers11.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="exit_100px" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\exit_100px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="test_account_100px21" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\test_account_100px21.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="textbox_user_5" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\textbox_user_5.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="lion_circus_48px" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\lion_circus_48px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="textbox_user_10" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\textbox_user_10.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="meosleep" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\meosleep.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="waste_sorting_48px2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\waste_sorting_48px2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="trash_40px2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\trash_40px2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="250185469_832576187418182_715689614472961030_n" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\250185469_832576187418182_715689614472961030_n.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="pet_commands_summon_50px2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\pet_commands_summon_50px2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="textbox_user_15" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\textbox_user_15.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="hamster-101-2--unscreen (1)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\hamster-101-2--unscreen (1).gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="x_64px" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\x_64px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="icons8_cancel_25px2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\icons8_cancel_25px2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="full_trash_100px1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\full_trash_100px1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="error2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\error2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="trash_50px" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\trash_50px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="4bd3cb274a8c635eb32def65462b2de3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\4bd3cb274a8c635eb32def65462b2de3.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="success11" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\success11.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="search_128px" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\search_128px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="textbox_user_1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\textbox_user_1.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="textbox_user_7" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\textbox_user_7.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="click_&amp;_collect_50px" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\click_&amp;_collect_50px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="hamster-101-2--unscreen" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\hamster-101-2--unscreen.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="undefined - Imgur2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\undefined - Imgur2.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="trash_50px1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\trash_50px1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="tiger_48px" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\tiger_48px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="icons8_cancel_25px11" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\icons8_cancel_25px11.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="giphy-2--unscreen1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\giphy-2--unscreen1.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="undefined - Imgur" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\undefined - Imgur.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="info11" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\info11.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="insert_money_64px1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\insert_money_64px1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="sale_64px1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\sale_64px1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="textbox_user_24" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\textbox_user_24.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="textbox_password" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\textbox_password.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="tick_box_40px" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\tick_box_40px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="checked_user_male_80px1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\checked_user_male_80px1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="error" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\error.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="save_64px1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\save_64px1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="meosleep1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\meosleep1.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="giphy-2 - unscreen-802" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\giphy-2 - unscreen-802.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="success" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\success.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="name_tag_40px" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\name_tag_40px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="error12" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\error12.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="business_report_200px1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\business_report_200px1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="pet_commands_summon_30px2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\pet_commands_summon_30px2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="textbox_user_9" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\textbox_user_9.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="receipt_40px" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\receipt_40px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="fat_dog_96px" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\fat_dog_96px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="checkout_80px" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\checkout_80px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="3e23db38be2676782f37" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\3e23db38be2676782f37.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="trash_can_100px1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\trash_can_100px1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="pet_commands_summon_30px" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\pet_commands_summon_30px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="exit_100px1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\exit_100px1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="box_48px1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\box_48px1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="handshake_40px1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\handshake_40px1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="lion_gif_801" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\lion_gif_801.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="trash_40px1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\trash_40px1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="sprite" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\sprite.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="sale_64px" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\sale_64px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="icons8_cancel_25px3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\icons8_cancel_25px3.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="test_account_100px" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\test_account_100px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="icons8_cancel_25px" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\icons8_cancel_25px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="receipt_48px" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\receipt_48px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="info2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\info2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="selfish_50px1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\selfish_50px1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="textbox_user_13" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\textbox_user_13.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="insert_money_64px" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\insert_money_64px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="checked_user_female_80px2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\checked_user_female_80px2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="petshop-removebg-preview" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\petshop-removebg-preview.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="selfish_100px1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\selfish_100px1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="undefined - Imgur1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\undefined - Imgur1.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="textbox_user_8" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\textbox_user_8.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="textbox_user_3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\textbox_user_3.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="icons8_cancel_25px1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\icons8_cancel_25px1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="giphy-2--unscreen" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\giphy-2--unscreen.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="selfish_50px" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\selfish_50px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="success1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\success1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="invisible_60px1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\invisible_60px1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="giphy-2 - unscreen-801" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\giphy-2 - unscreen-801.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="warning11" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\warning11.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="textbox_user_22" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\textbox_user_22.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="textbox_user_2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\textbox_user_2.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="pet_commands_summon_50px" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\pet_commands_summon_50px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="pet_commands_summon_30px1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\pet_commands_summon_30px1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="warning" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\warning.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="checkout_80px1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\checkout_80px1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="info12" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\info12.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="b32b85829b4cf33cadee39ca54790affv_3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\b32b85829b4cf33cadee39ca54790affv_3.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="receipt_40px1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\receipt_40px1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="privacy_64px" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\privacy_64px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="box_48px" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\box_48px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="pets_48px1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\pets_48px1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="invisible_60px" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\invisible_60px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="info1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\info1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="pets_48px" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\pets_48px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="liondichuyen" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\liondichuyen.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="cat_100px1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\cat_100px1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="warning12" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\warning12.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="name_tag_40px1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\name_tag_40px1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="bye" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\bye.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="liondichuyen1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\liondichuyen1.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="petshop-removebg-preview2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\petshop-removebg-preview2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="selfish_100px11" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\selfish_100px11.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="handshake_48px1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\handshake_48px1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="sale_40px" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\sale_40px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="tomini" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\tomini.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="business_report_200px" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\business_report_200px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="handshake_48px" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\handshake_48px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="bear_48px" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\bear_48px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="RemoveLion" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\RemoveLion.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="textbox_user_12" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\textbox_user_12.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="white-purple-abstract-background-design-white-purple-abstract-background-design-white-modern-background-1384537581" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\white-purple-abstract-background-design-white-purple-abstract-background-design-white-modern-background-1384537581.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="splash-screen" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\splash-screen.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="checked_user_female_80px1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\checked_user_female_80px1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="handshake_40px" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\handshake_40px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="bear_48px1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\bear_48px1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="test_account_100px3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\test_account_100px3.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="lion_circus_48px1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\lion_circus_48px1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="b836edf1d38b565aa2634ba7a0fe7716" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\b836edf1d38b565aa2634ba7a0fe7716.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="textbox_user_20" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\textbox_user_20.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="account_512px" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\account_512px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="purple-pink-fluid-splash-screen--by-iweb-makers" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\purple-pink-fluid-splash-screen--by-iweb-makers.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="af64e9354d39c0b6b7ff6e22ffa68f-unscreen" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\af64e9354d39c0b6b7ff6e22ffa68f-unscreen.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="tick_box_40px1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\tick_box_40px1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="spyware_40px" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\spyware_40px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="petshop-removebg-preview1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\petshop-removebg-preview1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="support_40px" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\support_40px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="RemoveLion1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\RemoveLion1.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="textbox_user_23" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\textbox_user_23.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="SnowBallRemoveBackGroud" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\SnowBallRemoveBackGroud.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="hamster-101-unscreen" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\hamster-101-unscreen.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="test_account_100px1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\test_account_100px1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="pets_64px" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\pets_64px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="giphy-2 - unscreen-8011" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\giphy-2 - unscreen-8011.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="error11" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\error11.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="warehouse_100px2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\warehouse_100px2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="textbox_user_19" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\textbox_user_19.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="success2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\success2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="images1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\images1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="doge_96px" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\doge_96px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="trash_40px" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\trash_40px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="warehouse_100px1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\warehouse_100px1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="search_96px" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\search_96px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="warning2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\warning2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="totoro_100px" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\totoro_100px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="textbox_user_21" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\textbox_user_21.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="64091ba397dfff5e67c9ddfff7c05ff2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\64091ba397dfff5e67c9ddfff7c05ff2.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="exit_32px" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\exit_32px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="price_80px" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\price_80px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="istockphoto-1259018485-170667a" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\istockphoto-1259018485-170667a.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="store_setting_50px" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\store_setting_50px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="bear_40px" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\bear_40px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="textbox_user_17" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\textbox_user_17.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="checked_user_female_80px" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\checked_user_female_80px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Uchiha Eyes_48px" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Uchiha Eyes_48px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="bear_48px2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\bear_48px2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="textbox_user_11" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\textbox_user_11.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="dog_100px1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\dog_100px1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="9f276fdc2c11dacb82f60b917d73e282" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\9f276fdc2c11dacb82f60b917d73e282.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="trash_100px1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\trash_100px1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="kiss_panda_200px" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\kiss_panda_200px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="pets_64px1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\pets_64px1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="test_account_100px2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\test_account_100px2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="pet_commands_summon_30px11" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\pet_commands_summon_30px11.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="info" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\info.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="dog_100px" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\dog_100px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="z2932979658550_ef47237d4bd317e02483ef48432f9b86" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\z2932979658550_ef47237d4bd317e02483ef48432f9b86.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="update_100px1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\update_100px1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="purple-pink-fluid-splash-screen--by-iweb-makers1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\purple-pink-fluid-splash-screen--by-iweb-makers1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="support_40px1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\support_40px1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="checked_user_male_80px" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\checked_user_male_80px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="cat_100px2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\cat_100px2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="click_&amp;_collect_64px" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\click_&amp;_collect_64px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="sql_30px" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\sql_30px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="icons8_cancel_25px12" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\icons8_cancel_25px12.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="handle_with_care_64px" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\handle_with_care_64px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="update_100px" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\update_100px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="bear_200px" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\bear_200px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="lion_gif_80" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\lion_gif_80.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="sprite1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\sprite1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="cat_100px" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\cat_100px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="warehouse_100px" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\warehouse_100px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="250185469-832576187418182-7156-unscreen (1)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\250185469-832576187418182-7156-unscreen (1).gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="full_trash_100px" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\full_trash_100px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="add_user_male_40px" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\add_user_male_40px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="cat_100px11" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\cat_100px11.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="textbox_user_6" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\textbox_user_6.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="pet_commands_summon_50px1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\pet_commands_summon_50px1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="textbox_user_18" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\textbox_user_18.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="shopping_cart_promotion_100px1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\shopping_cart_promotion_100px1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="staff_48px" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\staff_48px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="error1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\error1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="lion_100px" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\lion_100px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="warning1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\warning1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="trash_100px" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\trash_100px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="x_64px1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\x_64px1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="white-purple-abstract-background-design-white-purple-abstract-background-design-white-modern-background-138453758" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\white-purple-abstract-background-design-white-purple-abstract-background-design-white-modern-background-138453758.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="sale_40px1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\sale_40px1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="cat_butt_200px" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\cat_butt_200px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="sql_30px1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\sql_30px1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="giphy-1500097464740-1--unscreen" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\giphy-1500097464740-1--unscreen.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="textbox_user_4" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\textbox_user_4.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="waste_sorting_48px" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\waste_sorting_48px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="textbox_user_16" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\textbox_user_16.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="petshop" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\petshop.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="textbox_user_Clicked" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\textbox_user_Clicked.JPG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="online_store_64px1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\online_store_64px1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="totoro_48px" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\totoro_48px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="shopping_cart_promotion_100px" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\shopping_cart_promotion_100px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="staff_48px1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\staff_48px1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="tiger_48px1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\tiger_48px1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="receipt_48px1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\receipt_48px1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="petshop1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\petshop1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="debut" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\debut.JPG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="waste_sorting_48px1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\waste_sorting_48px1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="husky_PNG19" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\husky_PNG19.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="bear_48px11" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\bear_48px11.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="online_store_64px" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\online_store_64px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="stamppet-removebg-preview" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\stamppet-removebg-preview.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+</root>

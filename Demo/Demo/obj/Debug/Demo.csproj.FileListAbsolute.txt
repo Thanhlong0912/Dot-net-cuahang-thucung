@@ -1,0 +1,330 @@
+D:\DOAN\NET\Demo\Demo\bin\Debug\Demo.exe.config
+D:\DOAN\NET\Demo\Demo\bin\Debug\Demo.exe
+D:\DOAN\NET\Demo\Demo\bin\Debug\Demo.pdb
+D:\DOAN\NET\Demo\Demo\bin\Debug\Guna.UI.dll
+D:\DOAN\NET\Demo\Demo\bin\Debug\Guna.UI2.dll
+D:\DOAN\NET\Demo\Demo\obj\Debug\Demo.csprojResolveAssemblyReference.cache
+D:\DOAN\NET\Demo\Demo\obj\Debug\Demo.GUI_Login.resources
+D:\DOAN\NET\Demo\Demo\obj\Debug\Demo.Properties.Resources.resources
+D:\DOAN\NET\Demo\Demo\obj\Debug\Demo.csproj.GenerateResource.Cache
+D:\DOAN\NET\Demo\Demo\obj\Debug\Demo.exe
+D:\DOAN\NET\Demo\Demo\obj\Debug\Demo.pdb
+D:\DOAN\NET\Demo\Demo\obj\Debug\Demo.Form_ThongBao.resources
+D:\DOAN\NET\Demo\Demo\obj\Debug\Demo.GUI_SinUp.resources
+D:\DOAN\NET\Demo\Demo\obj\Debug\Demo.Form_ThongBao_TC.resources
+D:\DOAN\NET\Demo\Demo\obj\Debug\Demo.Test.resources
+D:\New folder\DOAN\NET\Demo\Demo\bin\Debug\Demo.exe.config
+D:\New folder\DOAN\NET\Demo\Demo\obj\Debug\Demo.exe
+D:\New folder\DOAN\NET\Demo\Demo\obj\Debug\Demo.pdb
+D:\New folder\DOAN\NET\Demo\Demo\obj\Debug\Demo.csprojResolveAssemblyReference.cache
+D:\New folder\DOAN\NET\Demo\Demo\obj\Debug\Demo.Form_ThongBao.resources
+D:\New folder\DOAN\NET\Demo\Demo\obj\Debug\Demo.Form_ThongBao_TC.resources
+D:\New folder\DOAN\NET\Demo\Demo\obj\Debug\Demo.GUI_Login.resources
+D:\New folder\DOAN\NET\Demo\Demo\obj\Debug\Demo.GUI_SinUp.resources
+D:\New folder\DOAN\NET\Demo\Demo\obj\Debug\Demo.Properties.Resources.resources
+D:\New folder\DOAN\NET\Demo\Demo\obj\Debug\Demo.Test.resources
+D:\New folder\DOAN\NET\Demo\Demo\obj\Debug\Demo.csproj.GenerateResource.Cache
+D:\New folder\DOAN\NET\Demo\Demo\bin\Debug\Demo.exe
+D:\New folder\DOAN\NET\Demo\Demo\bin\Debug\Demo.pdb
+D:\New folder\DOAN\NET\Demo\Demo\bin\Debug\Guna.UI.dll
+D:\New folder\DOAN\NET\Demo\Demo\bin\Debug\Guna.UI2.dll
+D:\New folder\DOAN\NET\Demo\Demo\obj\Debug\Demo.fMain.resources
+D:\CNNT\DOAN\NET\Demo\Demo\bin\Debug\Demo.exe.config
+D:\CNNT\DOAN\NET\Demo\Demo\obj\Debug\Demo.exe
+D:\CNNT\DOAN\NET\Demo\Demo\obj\Debug\Demo.pdb
+D:\CNNT\DOAN\NET\Demo\Demo\bin\Debug\Demo.exe
+D:\CNNT\DOAN\NET\Demo\Demo\bin\Debug\Demo.pdb
+D:\CNNT\DOAN\NET\Demo\Demo\bin\Debug\Guna.UI.dll
+D:\CNNT\DOAN\NET\Demo\Demo\bin\Debug\Guna.UI2.dll
+D:\CNNT\DOAN\NET\Demo\Demo\obj\Debug\Demo.fMain.resources
+D:\CNNT\DOAN\NET\Demo\Demo\obj\Debug\Demo.Form_ThongBao.resources
+D:\CNNT\DOAN\NET\Demo\Demo\obj\Debug\Demo.GUI_Login.resources
+D:\CNNT\DOAN\NET\Demo\Demo\obj\Debug\Demo.Properties.Resources.resources
+D:\CNNT\DOAN\NET\Demo\Demo\obj\Debug\Demo.csproj.GenerateResource.Cache
+D:\CNNT\DOAN\NET\Demo\Demo\obj\Debug\Demo.Form_Alert1.resources
+D:\CNNT\DOAN\NET\Demo\Demo\obj\Debug\Demo.fHome.resources
+D:\CNNT\DOAN\NET\Demo\Demo\obj\Debug\Demo.fSanPham.resources
+D:\CNNT\DOAN\NET\Demo\Demo\obj\Debug\Demo.fLoadSP.resources
+D:\CNNT\DOAN\NET\Demo\Demo\obj\Debug\Demo.splash_screen.resources
+D:\CNNT\DOAN\NET\Demo\Demo\obj\Debug\Demo.fKhachHang.resources
+D:\CNNT\DOAN\NET\Demo\Demo\obj\Debug\Demo.fLoadHanSanXuat.resources
+D:\CNNT\DOAN\NET\Demo\Demo\bin\Debug\Bunifu_UI_v1.5.3.dll
+D:\CNNT\DOAN\NET\Demo\Demo\obj\Debug\Demo.loadLoaiSP.resources
+D:\CNNT\DOAN\NET\Demo\Demo\obj\Debug\Demo.fNhanVien.resources
+D:\CNNT\DOAN\NET\Demo\Demo\obj\Debug\Demo.fLoadKM.resources
+D:\CNNT\DOAN\NET\Demo\Demo\obj\Debug\Demo.fMainSales.resources
+D:\CNNT\DOAN\NET\Demo\Demo\obj\Debug\Demo.fUser.resources
+D:\CNNT\DOAN\NET\Demo\Demo\obj\Debug\Demo.fLoadPN.resources
+D:\CNNT\DOAN\NET\Demo\Demo\obj\Debug\Demo.fMainPN.resources
+D:\CNNT\DOAN\NET\Demo\Demo\obj\Debug\Demo.fLoadCTPN.resources
+D:\CNNT\DOAN\NET\Demo\Demo\obj\Debug\Demo.fLoadHoaDon.resources
+D:\CNNT\DOAN\NET\Demo\Demo\obj\Debug\Demo.fMainHoaDon.resources
+D:\CNNT\DOAN\NET\Demo\Demo\obj\Debug\Demo.fLoadChiTietHD.resources
+D:\CNNT\DOAN\NET\Demo\Demo\bin\Debug\Interop.WMPLib.dll
+D:\CNNT\DOAN\NET\Demo\Demo\bin\Debug\AxInterop.WMPLib.dll
+D:\CNNT\DOAN\NET\Demo\Demo\obj\Debug\Interop.WMPLib.dll
+D:\CNNT\DOAN\NET\Demo\Demo\obj\Debug\AxInterop.WMPLib.dll
+D:\CNNT\DOAN\NET\Demo\Demo\obj\Debug\Demo.csproj.ResolveComReference.cache
+D:\CNNT\DOAN\NET\Demo\Demo\obj\Debug\Demo.csprojResolveAssemblyReference.cache
+D:\CNNT\DOAN\NET\Demo\Demo\obj\Debug\Demo.FSell.resources
+D:\CNNT\DOAN\NET\Demo\Demo\obj\Debug\Demo.FThongKe.resources
+C:\Users\ASUS\Desktop\Demo_Zalo\Demo\Demo\bin\Debug\Demo.exe.config
+C:\Users\ASUS\Desktop\Demo_Zalo\Demo\Demo\bin\Debug\Demo.exe
+C:\Users\ASUS\Desktop\Demo_Zalo\Demo\Demo\bin\Debug\Demo.pdb
+C:\Users\ASUS\Desktop\Demo_Zalo\Demo\Demo\bin\Debug\Interop.WMPLib.dll
+C:\Users\ASUS\Desktop\Demo_Zalo\Demo\Demo\bin\Debug\AxInterop.WMPLib.dll
+C:\Users\ASUS\Desktop\Demo_Zalo\Demo\Demo\obj\Debug\Demo.csprojAssemblyReference.cache
+C:\Users\ASUS\Desktop\Demo_Zalo\Demo\Demo\obj\Debug\Interop.WMPLib.dll
+C:\Users\ASUS\Desktop\Demo_Zalo\Demo\Demo\obj\Debug\AxInterop.WMPLib.dll
+C:\Users\ASUS\Desktop\Demo_Zalo\Demo\Demo\obj\Debug\Demo.csproj.ResolveComReference.cache
+C:\Users\ASUS\Desktop\Demo_Zalo\Demo\Demo\obj\Debug\Demo.fHome.resources
+C:\Users\ASUS\Desktop\Demo_Zalo\Demo\Demo\obj\Debug\Demo.fKhachHang.resources
+C:\Users\ASUS\Desktop\Demo_Zalo\Demo\Demo\obj\Debug\Demo.fLoadChiTietHD.resources
+C:\Users\ASUS\Desktop\Demo_Zalo\Demo\Demo\obj\Debug\Demo.fLoadCTPN.resources
+C:\Users\ASUS\Desktop\Demo_Zalo\Demo\Demo\obj\Debug\Demo.fLoadHanSanXuat.resources
+C:\Users\ASUS\Desktop\Demo_Zalo\Demo\Demo\obj\Debug\Demo.fLoadHoaDon.resources
+C:\Users\ASUS\Desktop\Demo_Zalo\Demo\Demo\obj\Debug\Demo.fLoadKM.resources
+C:\Users\ASUS\Desktop\Demo_Zalo\Demo\Demo\obj\Debug\Demo.fLoadPN.resources
+C:\Users\ASUS\Desktop\Demo_Zalo\Demo\Demo\obj\Debug\Demo.fLoadSP.resources
+C:\Users\ASUS\Desktop\Demo_Zalo\Demo\Demo\obj\Debug\Demo.fMain.resources
+C:\Users\ASUS\Desktop\Demo_Zalo\Demo\Demo\obj\Debug\Demo.fMainHoaDon.resources
+C:\Users\ASUS\Desktop\Demo_Zalo\Demo\Demo\obj\Debug\Demo.fMainPN.resources
+C:\Users\ASUS\Desktop\Demo_Zalo\Demo\Demo\obj\Debug\Demo.fMainSales.resources
+C:\Users\ASUS\Desktop\Demo_Zalo\Demo\Demo\obj\Debug\Demo.fNhanVien.resources
+C:\Users\ASUS\Desktop\Demo_Zalo\Demo\Demo\obj\Debug\Demo.Form_Alert1.resources
+C:\Users\ASUS\Desktop\Demo_Zalo\Demo\Demo\obj\Debug\Demo.Form_ThongBao.resources
+C:\Users\ASUS\Desktop\Demo_Zalo\Demo\Demo\obj\Debug\Demo.fSanPham.resources
+C:\Users\ASUS\Desktop\Demo_Zalo\Demo\Demo\obj\Debug\Demo.FSell.resources
+C:\Users\ASUS\Desktop\Demo_Zalo\Demo\Demo\obj\Debug\Demo.FThongKe.resources
+C:\Users\ASUS\Desktop\Demo_Zalo\Demo\Demo\obj\Debug\Demo.fUser.resources
+C:\Users\ASUS\Desktop\Demo_Zalo\Demo\Demo\obj\Debug\Demo.GUI_Login.resources
+C:\Users\ASUS\Desktop\Demo_Zalo\Demo\Demo\obj\Debug\Demo.loadLoaiSP.resources
+C:\Users\ASUS\Desktop\Demo_Zalo\Demo\Demo\obj\Debug\Demo.Properties.Resources.resources
+C:\Users\ASUS\Desktop\Demo_Zalo\Demo\Demo\obj\Debug\Demo.splash_screen.resources
+C:\Users\ASUS\Desktop\Demo_Zalo\Demo\Demo\obj\Debug\Demo.csproj.GenerateResource.cache
+C:\Users\ASUS\Desktop\Demo_Zalo\Demo\Demo\obj\Debug\Demo.csproj.CoreCompileInputs.cache
+C:\Users\ASUS\Desktop\Demo_Zalo\Demo\Demo\obj\Debug\Demo.csproj.CopyComplete
+C:\Users\ASUS\Desktop\Demo_Zalo\Demo\Demo\obj\Debug\Demo.exe
+C:\Users\ASUS\Desktop\Demo_Zalo\Demo\Demo\obj\Debug\Demo.pdb
+C:\Users\Admin\Downloads\Demo_Zalo\Demo\Demo\obj\Debug\Demo.csprojResolveAssemblyReference.cache
+C:\Users\Admin\Downloads\Demo_Zalo\Demo\Demo\obj\Debug\Interop.WMPLib.dll
+C:\Users\Admin\Downloads\Demo_Zalo\Demo\Demo\obj\Debug\AxInterop.WMPLib.dll
+C:\Users\Admin\Downloads\Demo_Zalo\Demo\Demo\obj\Debug\Demo.csproj.ResolveComReference.cache
+C:\Users\Admin\Downloads\Demo_Zalo\Demo\Demo\obj\Debug\Demo.fHome.resources
+C:\Users\Admin\Downloads\Demo_Zalo\Demo\Demo\obj\Debug\Demo.fKhachHang.resources
+C:\Users\Admin\Downloads\Demo_Zalo\Demo\Demo\obj\Debug\Demo.fLoadChiTietHD.resources
+C:\Users\Admin\Downloads\Demo_Zalo\Demo\Demo\obj\Debug\Demo.fLoadCTPN.resources
+C:\Users\Admin\Downloads\Demo_Zalo\Demo\Demo\obj\Debug\Demo.fLoadHanSanXuat.resources
+C:\Users\Admin\Downloads\Demo_Zalo\Demo\Demo\obj\Debug\Demo.fLoadHoaDon.resources
+C:\Users\Admin\Downloads\Demo_Zalo\Demo\Demo\obj\Debug\Demo.fLoadKM.resources
+C:\Users\Admin\Downloads\Demo_Zalo\Demo\Demo\obj\Debug\Demo.fLoadPN.resources
+C:\Users\Admin\Downloads\Demo_Zalo\Demo\Demo\obj\Debug\Demo.fLoadSP.resources
+C:\Users\Admin\Downloads\Demo_Zalo\Demo\Demo\obj\Debug\Demo.fMain.resources
+C:\Users\Admin\Downloads\Demo_Zalo\Demo\Demo\obj\Debug\Demo.fMainHoaDon.resources
+C:\Users\Admin\Downloads\Demo_Zalo\Demo\Demo\obj\Debug\Demo.fMainPN.resources
+C:\Users\Admin\Downloads\Demo_Zalo\Demo\Demo\obj\Debug\Demo.fMainSales.resources
+C:\Users\Admin\Downloads\Demo_Zalo\Demo\Demo\obj\Debug\Demo.fNhanVien.resources
+C:\Users\Admin\Downloads\Demo_Zalo\Demo\Demo\obj\Debug\Demo.Form_Alert1.resources
+C:\Users\Admin\Downloads\Demo_Zalo\Demo\Demo\obj\Debug\Demo.Form_ThongBao.resources
+C:\Users\Admin\Downloads\Demo_Zalo\Demo\Demo\obj\Debug\Demo.frmInBaoCao.resources
+C:\Users\Admin\Downloads\Demo_Zalo\Demo\Demo\obj\Debug\Demo.fSanPham.resources
+C:\Users\Admin\Downloads\Demo_Zalo\Demo\Demo\obj\Debug\Demo.FSell.resources
+C:\Users\Admin\Downloads\Demo_Zalo\Demo\Demo\obj\Debug\Demo.FThongKe.resources
+C:\Users\Admin\Downloads\Demo_Zalo\Demo\Demo\obj\Debug\Demo.fUser.resources
+C:\Users\Admin\Downloads\Demo_Zalo\Demo\Demo\obj\Debug\Demo.GUI_Login.resources
+C:\Users\Admin\Downloads\Demo_Zalo\Demo\Demo\obj\Debug\Demo.KetNoiCSDL.resources
+C:\Users\Admin\Downloads\Demo_Zalo\Demo\Demo\obj\Debug\Demo.loadLoaiSP.resources
+C:\Users\Admin\Downloads\Demo_Zalo\Demo\Demo\obj\Debug\Demo.Properties.Resources.resources
+C:\Users\Admin\Downloads\Demo_Zalo\Demo\Demo\obj\Debug\Demo.splash_screen.resources
+C:\Users\Admin\Downloads\Demo_Zalo\Demo\Demo\obj\Debug\Demo.csproj.GenerateResource.Cache
+C:\Users\Admin\Downloads\Demo_Zalo\Demo\Demo\bin\Debug\Demo.exe.config
+C:\Users\Admin\Downloads\Demo_Zalo\Demo\Demo\bin\Debug\Demo.exe
+C:\Users\Admin\Downloads\Demo_Zalo\Demo\Demo\bin\Debug\Demo.pdb
+C:\Users\Admin\Downloads\Demo_Zalo\Demo\Demo\bin\Debug\AxShockwaveFlashObjects.dll
+C:\Users\Admin\Downloads\Demo_Zalo\Demo\Demo\bin\Debug\CrystalDecisions.CrystalReports.Engine.dll
+C:\Users\Admin\Downloads\Demo_Zalo\Demo\Demo\bin\Debug\CrystalDecisions.ReportSource.dll
+C:\Users\Admin\Downloads\Demo_Zalo\Demo\Demo\bin\Debug\CrystalDecisions.Shared.dll
+C:\Users\Admin\Downloads\Demo_Zalo\Demo\Demo\bin\Debug\CrystalDecisions.Windows.Forms.dll
+C:\Users\Admin\Downloads\Demo_Zalo\Demo\Demo\bin\Debug\ShockwaveFlashObjects.dll
+C:\Users\Admin\Downloads\Demo_Zalo\Demo\Demo\bin\Debug\CrystalDecisions.ReportAppServer.DataDefModel.dll
+C:\Users\Admin\Downloads\Demo_Zalo\Demo\Demo\bin\Debug\CrystalDecisions.ReportAppServer.ClientDoc.dll
+C:\Users\Admin\Downloads\Demo_Zalo\Demo\Demo\bin\Debug\CrystalDecisions.ReportAppServer.ReportDefModel.dll
+C:\Users\Admin\Downloads\Demo_Zalo\Demo\Demo\bin\Debug\CrystalDecisions.ReportAppServer.Controllers.dll
+C:\Users\Admin\Downloads\Demo_Zalo\Demo\Demo\bin\Debug\CrystalDecisions.ReportAppServer.CommLayer.dll
+C:\Users\Admin\Downloads\Demo_Zalo\Demo\Demo\bin\Debug\CrystalDecisions.ReportAppServer.DataSetConversion.dll
+C:\Users\Admin\Downloads\Demo_Zalo\Demo\Demo\bin\Debug\CrystalDecisions.ReportAppServer.Prompting.dll
+C:\Users\Admin\Downloads\Demo_Zalo\Demo\Demo\bin\Debug\CrystalDecisions.ReportAppServer.XmlSerialize.dll
+C:\Users\Admin\Downloads\Demo_Zalo\Demo\Demo\bin\Debug\CrystalDecisions.ReportAppServer.CubeDefModel.dll
+C:\Users\Admin\Downloads\Demo_Zalo\Demo\Demo\bin\Debug\CrystalDecisions.ReportAppServer.CommonObjectModel.dll
+C:\Users\Admin\Downloads\Demo_Zalo\Demo\Demo\bin\Debug\CrystalDecisions.ReportAppServer.ObjectFactory.dll
+C:\Users\Admin\Downloads\Demo_Zalo\Demo\Demo\bin\Debug\stdole.dll
+C:\Users\Admin\Downloads\Demo_Zalo\Demo\Demo\bin\Debug\CrystalDecisions.ReportAppServer.CommonControls.dll
+C:\Users\Admin\Downloads\Demo_Zalo\Demo\Demo\bin\Debug\Interop.WMPLib.dll
+C:\Users\Admin\Downloads\Demo_Zalo\Demo\Demo\bin\Debug\AxInterop.WMPLib.dll
+C:\Users\Admin\Downloads\Demo_Zalo\Demo\Demo\obj\Debug\Demo.exe
+C:\Users\Admin\Downloads\Demo_Zalo\Demo\Demo\obj\Debug\Demo.pdb
+C:\Users\Admin\Downloads\Demo_90\Demo\Demo\bin\Debug\Demo.exe.config
+C:\Users\Admin\Downloads\Demo_90\Demo\Demo\bin\Debug\Demo.exe
+C:\Users\Admin\Downloads\Demo_90\Demo\Demo\bin\Debug\Demo.pdb
+C:\Users\Admin\Downloads\Demo_90\Demo\Demo\bin\Debug\AxShockwaveFlashObjects.dll
+C:\Users\Admin\Downloads\Demo_90\Demo\Demo\bin\Debug\CrystalDecisions.CrystalReports.Engine.dll
+C:\Users\Admin\Downloads\Demo_90\Demo\Demo\bin\Debug\CrystalDecisions.ReportSource.dll
+C:\Users\Admin\Downloads\Demo_90\Demo\Demo\bin\Debug\CrystalDecisions.Shared.dll
+C:\Users\Admin\Downloads\Demo_90\Demo\Demo\bin\Debug\CrystalDecisions.Windows.Forms.dll
+C:\Users\Admin\Downloads\Demo_90\Demo\Demo\bin\Debug\ShockwaveFlashObjects.dll
+C:\Users\Admin\Downloads\Demo_90\Demo\Demo\bin\Debug\CrystalDecisions.ReportAppServer.DataDefModel.dll
+C:\Users\Admin\Downloads\Demo_90\Demo\Demo\bin\Debug\CrystalDecisions.ReportAppServer.ClientDoc.dll
+C:\Users\Admin\Downloads\Demo_90\Demo\Demo\bin\Debug\CrystalDecisions.ReportAppServer.ReportDefModel.dll
+C:\Users\Admin\Downloads\Demo_90\Demo\Demo\bin\Debug\CrystalDecisions.ReportAppServer.Controllers.dll
+C:\Users\Admin\Downloads\Demo_90\Demo\Demo\bin\Debug\CrystalDecisions.ReportAppServer.CommLayer.dll
+C:\Users\Admin\Downloads\Demo_90\Demo\Demo\bin\Debug\CrystalDecisions.ReportAppServer.DataSetConversion.dll
+C:\Users\Admin\Downloads\Demo_90\Demo\Demo\bin\Debug\CrystalDecisions.ReportAppServer.Prompting.dll
+C:\Users\Admin\Downloads\Demo_90\Demo\Demo\bin\Debug\CrystalDecisions.ReportAppServer.XmlSerialize.dll
+C:\Users\Admin\Downloads\Demo_90\Demo\Demo\bin\Debug\CrystalDecisions.ReportAppServer.CubeDefModel.dll
+C:\Users\Admin\Downloads\Demo_90\Demo\Demo\bin\Debug\CrystalDecisions.ReportAppServer.CommonObjectModel.dll
+C:\Users\Admin\Downloads\Demo_90\Demo\Demo\bin\Debug\CrystalDecisions.ReportAppServer.ObjectFactory.dll
+C:\Users\Admin\Downloads\Demo_90\Demo\Demo\bin\Debug\stdole.dll
+C:\Users\Admin\Downloads\Demo_90\Demo\Demo\bin\Debug\CrystalDecisions.ReportAppServer.CommonControls.dll
+C:\Users\Admin\Downloads\Demo_90\Demo\Demo\bin\Debug\Interop.WMPLib.dll
+C:\Users\Admin\Downloads\Demo_90\Demo\Demo\bin\Debug\AxInterop.WMPLib.dll
+C:\Users\Admin\Downloads\Demo_90\Demo\Demo\obj\Debug\Interop.WMPLib.dll
+C:\Users\Admin\Downloads\Demo_90\Demo\Demo\obj\Debug\AxInterop.WMPLib.dll
+C:\Users\Admin\Downloads\Demo_90\Demo\Demo\obj\Debug\Demo.csproj.ResolveComReference.cache
+C:\Users\Admin\Downloads\Demo_90\Demo\Demo\obj\Debug\Demo.fHome.resources
+C:\Users\Admin\Downloads\Demo_90\Demo\Demo\obj\Debug\Demo.fKhachHang.resources
+C:\Users\Admin\Downloads\Demo_90\Demo\Demo\obj\Debug\Demo.fLoadChiTietHD.resources
+C:\Users\Admin\Downloads\Demo_90\Demo\Demo\obj\Debug\Demo.fLoadCTPN.resources
+C:\Users\Admin\Downloads\Demo_90\Demo\Demo\obj\Debug\Demo.fLoadHanSanXuat.resources
+C:\Users\Admin\Downloads\Demo_90\Demo\Demo\obj\Debug\Demo.fLoadHoaDon.resources
+C:\Users\Admin\Downloads\Demo_90\Demo\Demo\obj\Debug\Demo.fLoadKM.resources
+C:\Users\Admin\Downloads\Demo_90\Demo\Demo\obj\Debug\Demo.fLoadPN.resources
+C:\Users\Admin\Downloads\Demo_90\Demo\Demo\obj\Debug\Demo.fLoadSP.resources
+C:\Users\Admin\Downloads\Demo_90\Demo\Demo\obj\Debug\Demo.fMain.resources
+C:\Users\Admin\Downloads\Demo_90\Demo\Demo\obj\Debug\Demo.fMainHoaDon.resources
+C:\Users\Admin\Downloads\Demo_90\Demo\Demo\obj\Debug\Demo.fMainPN.resources
+C:\Users\Admin\Downloads\Demo_90\Demo\Demo\obj\Debug\Demo.fMainSales.resources
+C:\Users\Admin\Downloads\Demo_90\Demo\Demo\obj\Debug\Demo.fNhanVien.resources
+C:\Users\Admin\Downloads\Demo_90\Demo\Demo\obj\Debug\Demo.Form_Alert1.resources
+C:\Users\Admin\Downloads\Demo_90\Demo\Demo\obj\Debug\Demo.Form_ThongBao.resources
+C:\Users\Admin\Downloads\Demo_90\Demo\Demo\obj\Debug\Demo.frmInBaoCao.resources
+C:\Users\Admin\Downloads\Demo_90\Demo\Demo\obj\Debug\Demo.fSanPham.resources
+C:\Users\Admin\Downloads\Demo_90\Demo\Demo\obj\Debug\Demo.FSell.resources
+C:\Users\Admin\Downloads\Demo_90\Demo\Demo\obj\Debug\Demo.FThongKe.resources
+C:\Users\Admin\Downloads\Demo_90\Demo\Demo\obj\Debug\Demo.fUser.resources
+C:\Users\Admin\Downloads\Demo_90\Demo\Demo\obj\Debug\Demo.GUI_Login.resources
+C:\Users\Admin\Downloads\Demo_90\Demo\Demo\obj\Debug\Demo.KetNoiCSDL.resources
+C:\Users\Admin\Downloads\Demo_90\Demo\Demo\obj\Debug\Demo.loadLoaiSP.resources
+C:\Users\Admin\Downloads\Demo_90\Demo\Demo\obj\Debug\Demo.Properties.Resources.resources
+C:\Users\Admin\Downloads\Demo_90\Demo\Demo\obj\Debug\Demo.splash_screen.resources
+C:\Users\Admin\Downloads\Demo_90\Demo\Demo\obj\Debug\Demo.csproj.GenerateResource.Cache
+C:\Users\Admin\Downloads\Demo_90\Demo\Demo\obj\Debug\Demo.exe
+C:\Users\Admin\Downloads\Demo_90\Demo\Demo\obj\Debug\Demo.pdb
+D:\DEMO T5\Demo_90\Demo\Demo\bin\Debug\Demo.exe.config
+D:\DEMO T5\Demo_90\Demo\Demo\obj\Debug\Interop.WMPLib.dll
+D:\DEMO T5\Demo_90\Demo\Demo\obj\Debug\AxInterop.WMPLib.dll
+D:\DEMO T5\Demo_90\Demo\Demo\obj\Debug\Demo.csproj.ResolveComReference.cache
+D:\DEMO T5\Demo_90\Demo\Demo\obj\Debug\Demo.exe
+D:\DEMO T5\Demo_90\Demo\Demo\obj\Debug\Demo.pdb
+D:\DEMO T5\Demo_90\Demo\Demo\obj\Debug\Demo.csprojResolveAssemblyReference.cache
+D:\DEMO T5\Demo_90\Demo\Demo\obj\Debug\Demo.fHome.resources
+D:\DEMO T5\Demo_90\Demo\Demo\obj\Debug\Demo.fKhachHang.resources
+D:\DEMO T5\Demo_90\Demo\Demo\obj\Debug\Demo.fLoadChiTietHD.resources
+D:\DEMO T5\Demo_90\Demo\Demo\obj\Debug\Demo.fLoadCTPN.resources
+D:\DEMO T5\Demo_90\Demo\Demo\obj\Debug\Demo.fLoadHanSanXuat.resources
+D:\DEMO T5\Demo_90\Demo\Demo\obj\Debug\Demo.fLoadHoaDon.resources
+D:\DEMO T5\Demo_90\Demo\Demo\obj\Debug\Demo.fLoadKM.resources
+D:\DEMO T5\Demo_90\Demo\Demo\obj\Debug\Demo.fLoadPN.resources
+D:\DEMO T5\Demo_90\Demo\Demo\obj\Debug\Demo.fLoadSP.resources
+D:\DEMO T5\Demo_90\Demo\Demo\obj\Debug\Demo.fMain.resources
+D:\DEMO T5\Demo_90\Demo\Demo\obj\Debug\Demo.fMainHoaDon.resources
+D:\DEMO T5\Demo_90\Demo\Demo\obj\Debug\Demo.fMainPN.resources
+D:\DEMO T5\Demo_90\Demo\Demo\obj\Debug\Demo.fMainSales.resources
+D:\DEMO T5\Demo_90\Demo\Demo\obj\Debug\Demo.fNhanVien.resources
+D:\DEMO T5\Demo_90\Demo\Demo\obj\Debug\Demo.Form_Alert1.resources
+D:\DEMO T5\Demo_90\Demo\Demo\obj\Debug\Demo.Form_ThongBao.resources
+D:\DEMO T5\Demo_90\Demo\Demo\obj\Debug\Demo.frmInBaoCao.resources
+D:\DEMO T5\Demo_90\Demo\Demo\obj\Debug\Demo.fSanPham.resources
+D:\DEMO T5\Demo_90\Demo\Demo\obj\Debug\Demo.FSell.resources
+D:\DEMO T5\Demo_90\Demo\Demo\obj\Debug\Demo.FThongKe.resources
+D:\DEMO T5\Demo_90\Demo\Demo\obj\Debug\Demo.fUser.resources
+D:\DEMO T5\Demo_90\Demo\Demo\obj\Debug\Demo.GUI_Login.resources
+D:\DEMO T5\Demo_90\Demo\Demo\obj\Debug\Demo.KetNoiCSDL.resources
+D:\DEMO T5\Demo_90\Demo\Demo\obj\Debug\Demo.loadLoaiSP.resources
+D:\DEMO T5\Demo_90\Demo\Demo\obj\Debug\Demo.Properties.Resources.resources
+D:\DEMO T5\Demo_90\Demo\Demo\obj\Debug\Demo.splash_screen.resources
+D:\DEMO T5\Demo_90\Demo\Demo\obj\Debug\Demo.csproj.GenerateResource.Cache
+D:\DEMO T5\Demo_90\Demo\Demo\bin\Debug\Demo.exe
+D:\DEMO T5\Demo_90\Demo\Demo\bin\Debug\Demo.pdb
+D:\DEMO T5\Demo_90\Demo\Demo\bin\Debug\CrystalDecisions.ReportAppServer.DataDefModel.dll
+D:\DEMO T5\Demo_90\Demo\Demo\bin\Debug\CrystalDecisions.ReportAppServer.ClientDoc.dll
+D:\DEMO T5\Demo_90\Demo\Demo\bin\Debug\CrystalDecisions.ReportAppServer.ReportDefModel.dll
+D:\DEMO T5\Demo_90\Demo\Demo\bin\Debug\CrystalDecisions.ReportAppServer.Controllers.dll
+D:\DEMO T5\Demo_90\Demo\Demo\bin\Debug\CrystalDecisions.ReportAppServer.CommLayer.dll
+D:\DEMO T5\Demo_90\Demo\Demo\bin\Debug\CrystalDecisions.ReportAppServer.DataSetConversion.dll
+D:\DEMO T5\Demo_90\Demo\Demo\bin\Debug\CrystalDecisions.ReportAppServer.Prompting.dll
+D:\DEMO T5\Demo_90\Demo\Demo\bin\Debug\CrystalDecisions.ReportAppServer.XmlSerialize.dll
+D:\DEMO T5\Demo_90\Demo\Demo\bin\Debug\CrystalDecisions.ReportAppServer.CubeDefModel.dll
+D:\DEMO T5\Demo_90\Demo\Demo\bin\Debug\CrystalDecisions.ReportAppServer.CommonObjectModel.dll
+D:\DEMO T5\Demo_90\Demo\Demo\bin\Debug\CrystalDecisions.ReportAppServer.ObjectFactory.dll
+D:\DEMO T5\Demo_90\Demo\Demo\bin\Debug\CrystalDecisions.ReportAppServer.CommonControls.dll
+D:\DEMO T5\Demo_90\Demo\Demo\bin\Debug\Interop.WMPLib.dll
+D:\DEMO T5\Demo_90\Demo\Demo\bin\Debug\AxInterop.WMPLib.dll
+C:\Users\Admin\Downloads\Demo_90\Demo\Demo\obj\Debug\Demo.csprojResolveAssemblyReference.cache
+C:\Users\ThanhLong\Desktop\Demo_nhom5ss\Demo_90\Demo\Demo\bin\Debug\Demo.exe.config
+C:\Users\ThanhLong\Desktop\Demo_nhom5ss\Demo_90\Demo\Demo\bin\Debug\Demo.exe
+C:\Users\ThanhLong\Desktop\Demo_nhom5ss\Demo_90\Demo\Demo\bin\Debug\Demo.pdb
+C:\Users\ThanhLong\Desktop\Demo_nhom5ss\Demo_90\Demo\Demo\bin\Debug\AxShockwaveFlashObjects.dll
+C:\Users\ThanhLong\Desktop\Demo_nhom5ss\Demo_90\Demo\Demo\bin\Debug\CrystalDecisions.CrystalReports.Engine.dll
+C:\Users\ThanhLong\Desktop\Demo_nhom5ss\Demo_90\Demo\Demo\bin\Debug\CrystalDecisions.ReportSource.dll
+C:\Users\ThanhLong\Desktop\Demo_nhom5ss\Demo_90\Demo\Demo\bin\Debug\CrystalDecisions.Shared.dll
+C:\Users\ThanhLong\Desktop\Demo_nhom5ss\Demo_90\Demo\Demo\bin\Debug\CrystalDecisions.Windows.Forms.dll
+C:\Users\ThanhLong\Desktop\Demo_nhom5ss\Demo_90\Demo\Demo\bin\Debug\ShockwaveFlashObjects.dll
+C:\Users\ThanhLong\Desktop\Demo_nhom5ss\Demo_90\Demo\Demo\bin\Debug\CrystalDecisions.ReportAppServer.DataDefModel.dll
+C:\Users\ThanhLong\Desktop\Demo_nhom5ss\Demo_90\Demo\Demo\bin\Debug\CrystalDecisions.ReportAppServer.ClientDoc.dll
+C:\Users\ThanhLong\Desktop\Demo_nhom5ss\Demo_90\Demo\Demo\bin\Debug\CrystalDecisions.ReportAppServer.ReportDefModel.dll
+C:\Users\ThanhLong\Desktop\Demo_nhom5ss\Demo_90\Demo\Demo\bin\Debug\CrystalDecisions.ReportAppServer.Controllers.dll
+C:\Users\ThanhLong\Desktop\Demo_nhom5ss\Demo_90\Demo\Demo\bin\Debug\CrystalDecisions.ReportAppServer.CommLayer.dll
+C:\Users\ThanhLong\Desktop\Demo_nhom5ss\Demo_90\Demo\Demo\bin\Debug\CrystalDecisions.ReportAppServer.DataSetConversion.dll
+C:\Users\ThanhLong\Desktop\Demo_nhom5ss\Demo_90\Demo\Demo\bin\Debug\CrystalDecisions.ReportAppServer.Prompting.dll
+C:\Users\ThanhLong\Desktop\Demo_nhom5ss\Demo_90\Demo\Demo\bin\Debug\CrystalDecisions.ReportAppServer.XmlSerialize.dll
+C:\Users\ThanhLong\Desktop\Demo_nhom5ss\Demo_90\Demo\Demo\bin\Debug\CrystalDecisions.ReportAppServer.CubeDefModel.dll
+C:\Users\ThanhLong\Desktop\Demo_nhom5ss\Demo_90\Demo\Demo\bin\Debug\CrystalDecisions.ReportAppServer.CommonObjectModel.dll
+C:\Users\ThanhLong\Desktop\Demo_nhom5ss\Demo_90\Demo\Demo\bin\Debug\CrystalDecisions.ReportAppServer.ObjectFactory.dll
+C:\Users\ThanhLong\Desktop\Demo_nhom5ss\Demo_90\Demo\Demo\bin\Debug\stdole.dll
+C:\Users\ThanhLong\Desktop\Demo_nhom5ss\Demo_90\Demo\Demo\bin\Debug\CrystalDecisions.ReportAppServer.CommonControls.dll
+C:\Users\ThanhLong\Desktop\Demo_nhom5ss\Demo_90\Demo\Demo\bin\Debug\Interop.WMPLib.dll
+C:\Users\ThanhLong\Desktop\Demo_nhom5ss\Demo_90\Demo\Demo\bin\Debug\AxInterop.WMPLib.dll
+C:\Users\ThanhLong\Desktop\Demo_nhom5ss\Demo_90\Demo\Demo\obj\Debug\Demo.csproj.AssemblyReference.cache
+C:\Users\ThanhLong\Desktop\Demo_nhom5ss\Demo_90\Demo\Demo\obj\Debug\Interop.WMPLib.dll
+C:\Users\ThanhLong\Desktop\Demo_nhom5ss\Demo_90\Demo\Demo\obj\Debug\AxInterop.WMPLib.dll
+C:\Users\ThanhLong\Desktop\Demo_nhom5ss\Demo_90\Demo\Demo\obj\Debug\Demo.csproj.ResolveComReference.cache
+C:\Users\ThanhLong\Desktop\Demo_nhom5ss\Demo_90\Demo\Demo\obj\Debug\Demo.fHome.resources
+C:\Users\ThanhLong\Desktop\Demo_nhom5ss\Demo_90\Demo\Demo\obj\Debug\Demo.fKhachHang.resources
+C:\Users\ThanhLong\Desktop\Demo_nhom5ss\Demo_90\Demo\Demo\obj\Debug\Demo.fLoadChiTietHD.resources
+C:\Users\ThanhLong\Desktop\Demo_nhom5ss\Demo_90\Demo\Demo\obj\Debug\Demo.fLoadCTPN.resources
+C:\Users\ThanhLong\Desktop\Demo_nhom5ss\Demo_90\Demo\Demo\obj\Debug\Demo.fLoadHanSanXuat.resources
+C:\Users\ThanhLong\Desktop\Demo_nhom5ss\Demo_90\Demo\Demo\obj\Debug\Demo.fLoadHoaDon.resources
+C:\Users\ThanhLong\Desktop\Demo_nhom5ss\Demo_90\Demo\Demo\obj\Debug\Demo.fLoadKM.resources
+C:\Users\ThanhLong\Desktop\Demo_nhom5ss\Demo_90\Demo\Demo\obj\Debug\Demo.fLoadPN.resources
+C:\Users\ThanhLong\Desktop\Demo_nhom5ss\Demo_90\Demo\Demo\obj\Debug\Demo.fLoadSP.resources
+C:\Users\ThanhLong\Desktop\Demo_nhom5ss\Demo_90\Demo\Demo\obj\Debug\Demo.fMain.resources
+C:\Users\ThanhLong\Desktop\Demo_nhom5ss\Demo_90\Demo\Demo\obj\Debug\Demo.fMainHoaDon.resources
+C:\Users\ThanhLong\Desktop\Demo_nhom5ss\Demo_90\Demo\Demo\obj\Debug\Demo.fMainPN.resources
+C:\Users\ThanhLong\Desktop\Demo_nhom5ss\Demo_90\Demo\Demo\obj\Debug\Demo.fMainSales.resources
+C:\Users\ThanhLong\Desktop\Demo_nhom5ss\Demo_90\Demo\Demo\obj\Debug\Demo.fNhanVien.resources
+C:\Users\ThanhLong\Desktop\Demo_nhom5ss\Demo_90\Demo\Demo\obj\Debug\Demo.Form_Alert1.resources
+C:\Users\ThanhLong\Desktop\Demo_nhom5ss\Demo_90\Demo\Demo\obj\Debug\Demo.Form_ThongBao.resources
+C:\Users\ThanhLong\Desktop\Demo_nhom5ss\Demo_90\Demo\Demo\obj\Debug\Demo.frmInBaoCao.resources
+C:\Users\ThanhLong\Desktop\Demo_nhom5ss\Demo_90\Demo\Demo\obj\Debug\Demo.fSanPham.resources
+C:\Users\ThanhLong\Desktop\Demo_nhom5ss\Demo_90\Demo\Demo\obj\Debug\Demo.FSell.resources
+C:\Users\ThanhLong\Desktop\Demo_nhom5ss\Demo_90\Demo\Demo\obj\Debug\Demo.FThongKe.resources
+C:\Users\ThanhLong\Desktop\Demo_nhom5ss\Demo_90\Demo\Demo\obj\Debug\Demo.fUser.resources
+C:\Users\ThanhLong\Desktop\Demo_nhom5ss\Demo_90\Demo\Demo\obj\Debug\Demo.GUI_Login.resources
+C:\Users\ThanhLong\Desktop\Demo_nhom5ss\Demo_90\Demo\Demo\obj\Debug\Demo.KetNoiCSDL.resources
+C:\Users\ThanhLong\Desktop\Demo_nhom5ss\Demo_90\Demo\Demo\obj\Debug\Demo.loadLoaiSP.resources
+C:\Users\ThanhLong\Desktop\Demo_nhom5ss\Demo_90\Demo\Demo\obj\Debug\Demo.Properties.Resources.resources
+C:\Users\ThanhLong\Desktop\Demo_nhom5ss\Demo_90\Demo\Demo\obj\Debug\Demo.splash_screen.resources
+C:\Users\ThanhLong\Desktop\Demo_nhom5ss\Demo_90\Demo\Demo\obj\Debug\Demo.csproj.GenerateResource.cache
+C:\Users\ThanhLong\Desktop\Demo_nhom5ss\Demo_90\Demo\Demo\obj\Debug\Demo.csproj.CoreCompileInputs.cache
+C:\Users\ThanhLong\Desktop\Demo_nhom5ss\Demo_90\Demo\Demo\obj\Debug\Demo.exe
+C:\Users\ThanhLong\Desktop\Demo_nhom5ss\Demo_90\Demo\Demo\obj\Debug\Demo.pdb

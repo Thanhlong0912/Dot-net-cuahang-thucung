@@ -1,0 +1,1107 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{FFFE574B-4922-4457-BB84-F20FF5E3CABC}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Demo</RootNamespace>
+    <AssemblyName>Demo</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="AxShockwaveFlashObjects, Version=1.0.0.0, Culture=neutral, PublicKeyToken=692fbea5521e1304" />
+    <Reference Include="Bunifu_UI_v1.5.3">
+      <HintPath>..\..\..\..\GUI\New folder\Bunifu_UI_v1.5.3.dll</HintPath>
+    </Reference>
+    <Reference Include="CrystalDecisions.CrystalReports.Engine, Version=13.0.4000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL" />
+    <Reference Include="CrystalDecisions.ReportSource, Version=13.0.4000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL" />
+    <Reference Include="CrystalDecisions.Shared, Version=13.0.4000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL" />
+    <Reference Include="CrystalDecisions.Windows.Forms, Version=13.0.4000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL" />
+    <Reference Include="Guna.UI">
+      <HintPath>..\..\..\..\DHTH9\.NET\TestFramework\[FTUApps.com] - Guna UI Framework Ultimate v2.0.0.1 + Keygen\Guna.UI-Framework-Lib-master\Guna.UI WinForms\.net 4.0\Guna.UI.dll</HintPath>
+    </Reference>
+    <Reference Include="Guna.UI2">
+      <HintPath>..\..\..\..\DHTH9\.NET\TestFramework\[FTUApps.com] - Guna UI Framework Ultimate v2.0.0.1 + Keygen\Guna.UI-Framework-Lib-master\Guna.UI2 WinForms\.net 4.0\Guna.UI2.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.VisualBasic" />
+    <Reference Include="System" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Management" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AppSetting.cs" />
+    <Compile Include="Controller\ChiTietDotKhuyenMaiController.cs" />
+    <Compile Include="Controller\ChiTietHoaDonController.cs" />
+    <Compile Include="Controller\ChiTietPhieuNhapController.cs" />
+    <Compile Include="Controller\HoaDonController.cs" />
+    <Compile Include="Controller\KhachHangController.cs" />
+    <Compile Include="Controller\KhuyenMaiController.cs" />
+    <Compile Include="Controller\LoaiSPController.cs" />
+    <Compile Include="Controller\NhanVienController.cs" />
+    <Compile Include="Controller\NhaPhanPhoiController.cs" />
+    <Compile Include="Controller\PhieuNhapController.cs" />
+    <Compile Include="Controller\SanPhamController.cs" />
+    <Compile Include="Controller\ThongKeController.cs" />
+    <Compile Include="Controller\UsersController.cs" />
+    <Compile Include="fHome.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="fHome.Designer.cs">
+      <DependentUpon>fHome.cs</DependentUpon>
+    </Compile>
+    <Compile Include="fKhachHang.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="fKhachHang.Designer.cs">
+      <DependentUpon>fKhachHang.cs</DependentUpon>
+    </Compile>
+    <Compile Include="fLoadChiTietHD.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="fLoadChiTietHD.Designer.cs">
+      <DependentUpon>fLoadChiTietHD.cs</DependentUpon>
+    </Compile>
+    <Compile Include="fLoadCTPN.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="fLoadCTPN.Designer.cs">
+      <DependentUpon>fLoadCTPN.cs</DependentUpon>
+    </Compile>
+    <Compile Include="fLoadHanSanXuat.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="fLoadHanSanXuat.Designer.cs">
+      <DependentUpon>fLoadHanSanXuat.cs</DependentUpon>
+    </Compile>
+    <Compile Include="fLoadHoaDon.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="fLoadHoaDon.Designer.cs">
+      <DependentUpon>fLoadHoaDon.cs</DependentUpon>
+    </Compile>
+    <Compile Include="fLoadKM.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="fLoadKM.Designer.cs">
+      <DependentUpon>fLoadKM.cs</DependentUpon>
+    </Compile>
+    <Compile Include="fLoadPN.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="fLoadPN.Designer.cs">
+      <DependentUpon>fLoadPN.cs</DependentUpon>
+    </Compile>
+    <Compile Include="fLoadSP.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="fLoadSP.Designer.cs">
+      <DependentUpon>fLoadSP.cs</DependentUpon>
+    </Compile>
+    <Compile Include="fMain.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="fMain.Designer.cs">
+      <DependentUpon>fMain.cs</DependentUpon>
+    </Compile>
+    <Compile Include="fMainHoaDon.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="fMainHoaDon.Designer.cs">
+      <DependentUpon>fMainHoaDon.cs</DependentUpon>
+    </Compile>
+    <Compile Include="fMainPN.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="fMainPN.Designer.cs">
+      <DependentUpon>fMainPN.cs</DependentUpon>
+    </Compile>
+    <Compile Include="fMainSales.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="fMainSales.Designer.cs">
+      <DependentUpon>fMainSales.cs</DependentUpon>
+    </Compile>
+    <Compile Include="fNhanVien.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="fNhanVien.Designer.cs">
+      <DependentUpon>fNhanVien.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form_Alert1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form_Alert1.designer.cs">
+      <DependentUpon>Form_Alert1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form_ThongBao.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form_ThongBao.Designer.cs">
+      <DependentUpon>Form_ThongBao.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmInBaoCao.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmInBaoCao.Designer.cs">
+      <DependentUpon>frmInBaoCao.cs</DependentUpon>
+    </Compile>
+    <Compile Include="fSanPham.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="fSanPham.Designer.cs">
+      <DependentUpon>fSanPham.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FSell.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FSell.designer.cs">
+      <DependentUpon>FSell.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FThongKe.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FThongKe.Designer.cs">
+      <DependentUpon>FThongKe.cs</DependentUpon>
+    </Compile>
+    <Compile Include="fUser.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="fUser.Designer.cs">
+      <DependentUpon>fUser.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GUI_Login.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GUI_Login.Designer.cs">
+      <DependentUpon>GUI_Login.cs</DependentUpon>
+    </Compile>
+    <Compile Include="KetNoiCSDL.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="KetNoiCSDL.Designer.cs">
+      <DependentUpon>KetNoiCSDL.cs</DependentUpon>
+    </Compile>
+    <Compile Include="loadLoaiSP.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="loadLoaiSP.Designer.cs">
+      <DependentUpon>loadLoaiSP.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Model\ChiTietHoaDonModel.cs" />
+    <Compile Include="Model\ChiTietKhuyenMaiModel.cs" />
+    <Compile Include="Model\ChiTietPhieuNhapModel.cs" />
+    <Compile Include="Model\HoaDonModel.cs" />
+    <Compile Include="Model\KetNoi.cs" />
+    <Compile Include="Model\KhachHangModel.cs" />
+    <Compile Include="Model\KhuyenMaiModel.cs" />
+    <Compile Include="Model\LoaiSPModel.cs" />
+    <Compile Include="Model\NhanVienModel.cs" />
+    <Compile Include="Model\NhaPhanPhoiModel.cs" />
+    <Compile Include="Model\PhieuNhapModel.cs" />
+    <Compile Include="Model\SanPhamModel.cs" />
+    <Compile Include="Model\ThongKeModel.cs" />
+    <Compile Include="Model\UserModel.cs" />
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="QL_SHOPPETDataSet.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>QL_SHOPPETDataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="rptBaoCao.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>rptBaoCao.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="splash screen.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="splash screen.designer.cs">
+      <DependentUpon>splash screen.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="fHome.resx">
+      <DependentUpon>fHome.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="fKhachHang.resx">
+      <DependentUpon>fKhachHang.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="fLoadChiTietHD.resx">
+      <DependentUpon>fLoadChiTietHD.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="fLoadCTPN.resx">
+      <DependentUpon>fLoadCTPN.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="fLoadHanSanXuat.resx">
+      <DependentUpon>fLoadHanSanXuat.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="fLoadHoaDon.resx">
+      <DependentUpon>fLoadHoaDon.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="fLoadKM.resx">
+      <DependentUpon>fLoadKM.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="fLoadPN.resx">
+      <DependentUpon>fLoadPN.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="fLoadSP.resx">
+      <DependentUpon>fLoadSP.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="fMain.resx">
+      <DependentUpon>fMain.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="fMainHoaDon.resx">
+      <DependentUpon>fMainHoaDon.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="fMainPN.resx">
+      <DependentUpon>fMainPN.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="fMainSales.resx">
+      <DependentUpon>fMainSales.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="fNhanVien.resx">
+      <DependentUpon>fNhanVien.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form_Alert1.resx">
+      <DependentUpon>Form_Alert1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form_ThongBao.resx">
+      <DependentUpon>Form_ThongBao.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmInBaoCao.resx">
+      <DependentUpon>frmInBaoCao.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="fSanPham.resx">
+      <DependentUpon>fSanPham.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FSell.resx">
+      <DependentUpon>FSell.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FThongKe.resx">
+      <DependentUpon>FThongKe.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="fUser.resx">
+      <DependentUpon>fUser.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GUI_Login.resx">
+      <DependentUpon>GUI_Login.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="KetNoiCSDL.resx">
+      <DependentUpon>KetNoiCSDL.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="loadLoaiSP.resx">
+      <DependentUpon>loadLoaiSP.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <SubType>Designer</SubType>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="rptBaoCao.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>rptBaoCao.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="splash screen.resx">
+      <DependentUpon>splash screen.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config">
+      <SubType>Designer</SubType>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Image\" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="QL_SHOPPETDataSet.xsc">
+      <DependentUpon>QL_SHOPPETDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="QL_SHOPPETDataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>QL_SHOPPETDataSet.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="QL_SHOPPETDataSet.xss">
+      <DependentUpon>QL_SHOPPETDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="Resources\add_user_male_40px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\giphy-2 - unscreen-80.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\lion_circus_48px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\lion_gif_80.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\test_account_100px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\purple-pink-fluid-splash-screen--by-iweb-makers.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\purple-pink-fluid-splash-screen--by-iweb-makers1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\sprite.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\petshop.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\petshop-removebg-preview.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\error.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\error1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8_cancel_25px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8_cancel_25px1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\info.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\info1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\warning.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\warning1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\success.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8_cancel_25px2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bear_48px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\dog_100px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cat_100px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\lion_100px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\box_48px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\insert_money_64px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\checked_user_female_80px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\trash_40px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\warehouse_100px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\waste_sorting_48px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\x_64px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\petshop-removebg-preview1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\test_account_100px2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pet_commands_summon_30px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pet_commands_summon_50px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\trash_40px1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\trash_can_100px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\exit_100px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\giphy-2--unscreen.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\giphy-2 - unscreen-801.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\trash_100px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\handshake_40px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bear_48px1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\liondichuyen.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\name_tag_40px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\trash_50px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\undefined - Imgur.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\tick_box_40px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pets_64px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\test_account_100px1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\RemoveLion.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\online_store_64px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pet_commands_summon_50px1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pets_48px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\receipt_40px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\receipt_48px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\sale_40px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\sale_64px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\save_64px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\selfish_50px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\selfish_100px1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\shopping_cart_promotion_100px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\staff_48px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\tiger_48px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\update_100px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\warehouse_100px1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\waste_sorting_48px1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\images.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\checked_user_female_80px1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\checked_user_male_80px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\full_trash_100px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\support_40px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\meosleep.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\white-purple-abstract-background-design-white-purple-abstract-background-design-white-modern-background-138453758.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\error11.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8_cancel_25px11.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\info11.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pet_commands_summon_30px1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\success1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\warning11.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cat_100px1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\sql_30px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\handshake_48px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bear_48px2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bear_48px11.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\box_48px1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cat_100px2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cat_100px11.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\checked_user_female_80px2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\checked_user_male_80px1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\dog_100px1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\error2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\error12.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\exit_100px1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\full_trash_100px1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\giphy-2 - unscreen-802.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\giphy-2 - unscreen-8011.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\giphy-2--unscreen1.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\handshake_40px1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\handshake_48px1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8_cancel_25px3.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8_cancel_25px12.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\images1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\info2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\info12.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\insert_money_64px1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\lion_100px1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\lion_circus_48px1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\lion_gif_801.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\liondichuyen1.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\meosleep1.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\name_tag_40px1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\online_store_64px1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pet_commands_summon_30px2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pet_commands_summon_30px11.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pet_commands_summon_50px2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pets_48px1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pets_64px1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\petshop1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\petshop-removebg-preview2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\purple-pink-fluid-splash-screen--by-iweb-makers2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\purple-pink-fluid-splash-screen--by-iweb-makers11.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\receipt_40px1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\receipt_48px1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\RemoveLion1.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\sale_40px1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\sale_64px1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\save_64px1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\selfish_50px1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\selfish_100px11.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\shopping_cart_promotion_100px1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\splash-screen.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\sprite1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\sql_30px1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\staff_48px1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\success2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\success11.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\support_40px1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\test_account_100px3.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\test_account_100px11.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\test_account_100px21.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\tick_box_40px1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\tiger_48px1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\trash_40px2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\trash_50px1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\trash_100px1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\trash_can_100px1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\undefined - Imgur1.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\update_100px1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\warehouse_100px2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\warning2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\warning12.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\waste_sorting_48px2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\white-purple-abstract-background-design-white-purple-abstract-background-design-white-modern-background-1384537581.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\x_64px1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\istockphoto-1259018485-170667a.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\4bd3cb274a8c635eb32def65462b2de3.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\250185469_832576187418182_715689614472961030_n.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\af64e9354d39c0b6b7ff6e22ffa68f-unscreen.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\hamster-101-unscreen.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\hamster-101-2--unscreen.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\250185469-832576187418182-7156-unscreen %281%29.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\hamster-101-2--unscreen %281%29.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\giphy-1500097464740-1--unscreen.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\64091ba397dfff5e67c9ddfff7c05ff2.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\doge_48px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bear_40px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bear_200px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\doge_96px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cat_butt_200px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\fat_dog_96px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\totoro_48px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\tomini.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\totoro_100px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\click_&amp;_collect_50px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\click_&amp;_collect_64px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\store_setting_50px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\handle_with_care_64px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\3e23db38be2676782f37.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bye.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\debut.JPG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\textbox_password.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\textbox_user_1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\textbox_user_2.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\textbox_user_3.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\textbox_user_4.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\textbox_user_5.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\textbox_user_6.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\textbox_user_7.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\textbox_user_8.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\textbox_user_9.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\textbox_user_10.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\textbox_user_11.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\textbox_user_12.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\textbox_user_13.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\textbox_user_14.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\textbox_user_15.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\textbox_user_16.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\textbox_user_17.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\textbox_user_18.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\textbox_user_19.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\textbox_user_20.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\textbox_user_21.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\textbox_user_22.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\textbox_user_23.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\textbox_user_24.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\textbox_user_Clicked.JPG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\exit_32px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\undefined - Imgur2.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\privacy_64px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\spyware_40px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\9f276fdc2c11dacb82f60b917d73e282.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\b32b85829b4cf33cadee39ca54790affv_3.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\b836edf1d38b565aa2634ba7a0fe7716.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <COMReference Include="AxWMPLib">
+      <Guid>{6BF52A50-394A-11D3-B153-00C04F79FAA6}</Guid>
+      <VersionMajor>1</VersionMajor>
+      <VersionMinor>0</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>aximp</WrapperTool>
+      <Isolated>False</Isolated>
+    </COMReference>
+    <COMReference Include="WMPLib">
+      <Guid>{6BF52A50-394A-11D3-B153-00C04F79FAA6}</Guid>
+      <VersionMajor>1</VersionMajor>
+      <VersionMinor>0</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>tlbimp</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </COMReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\420f9b50a43926654eff153d65e179bf.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\SnowBallRemoveBackGroud.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\husky_PNG19.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\kiss_panda_200px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\search_128px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\search_128px1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\search_96px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\z2932979658550_ef47237d4bd317e02483ef48432f9b86.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\checkout_80px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\price_80px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\checkout_80px1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\business_report_200px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\statistics_128px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\business_report_200px1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\account_512px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\delivery_48px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Uchiha Eyes_48px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\invisible_60px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\invisible_60px1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Service Include="{C0C07587-41A7-46C8-8FBD-3F9C8EBE2DDC}" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\stamppet-removebg-preview.png" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
